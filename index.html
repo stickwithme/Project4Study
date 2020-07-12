@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=1200, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./normalize.css">
   <link rel="stylesheet" href="./main.css">
 
   <title>Air Asia | Main Page</title>
@@ -24,14 +23,26 @@
               <ul class="menu__list">
                 <li class="menu__item menu__item_active"> <a href="#" class="menu__link">Главная</a> </li>
                 <li class="menu__item"> <a href="./services.html" class="menu__link">Услуги</a> </li>
-                <li class="menu__item"> <a href="#" class="menu__link">Отзывы</a> </li>
+                <li class="menu__item"> <a href="./reviews.html" class="menu__link">Отзывы</a> </li>
               </ul>
             </nav>
           </div>
           <div class="header__col">
             <adress class="contacts">
               <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-              <div class="contacts__dropdown-title">График работы</div>
+              <div class="dropdown">
+                <a href="" class="dropdown__link">График работы</a>
+                <div class="dropdown__menu">
+                    <ul class="dropdown__list">
+                        <li class="dropdown__items dropdown__items--bold">
+                            Пн-Вс: 09:00-20:00
+                        </li>
+                        <li class="dropdown__items">
+                            Обед: 14:00-14:30
+                        </li>
+                    </ul>
+                </div>
+              </div>
             </adress>
           </div>
         </header>
@@ -47,7 +58,7 @@
 
     <section class="section"> 
       <section class="container">
-        <h2 class="section__title">Горящие туры <img src="./air-asia/images/icons/flame.png" alt=""></h2>
+        <h2 class="section__title section-title_icon_fire">Горящие туры</h2>
         <ul class="hot-tours">
           <li class="hot-tours__item">
             <div class="hot-tour">
@@ -189,17 +200,17 @@
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item">
-                <a href="#" class="menu__link">
+                <a href="./index.html" class="menu__link">
                   Главная
                 </a>
               </li>
               <li class="menu__item menu_item">
-                <a href="#" class="menu__link">
+                <a href="./services.html" class="menu__link">
                   Услуги
                 </a>
               </li>
               <li class="menu__item">
-                <a href="#" class="menu__link">
+                <a href="./reviews.html" class="menu__link">
                   Отзывы
                 </a>
               </li>

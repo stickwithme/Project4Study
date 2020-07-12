@@ -1,0 +1,54 @@
+.reviews {
+    column-count: 2;
+    column-gap: 30px;
+}
+
+.reviews__item {
+    margin-bottom: 20px;
+}
+
+
+.review {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    background: #f4f5f5;
+    border-radius: 4px;
+}
+
+.review__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.review__user {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4d76a1;
+    margin-bottom: 11px;
+}
+
+.review__user:after {
+    content: url("./air-asia/images/icons/socials/vk-blue.png");
+    height: 29px;
+    padding-left: 12px;
+}
+
+.review__userdata {
+    padding-left: 20px;
+}
+
+.avatar {
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.review__tag {
+    display: flex;  
+    align-items: flex-start;
+}

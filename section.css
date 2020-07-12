@@ -1,0 +1,29 @@
+.section {
+    margin-bottom: 138px;
+}
+
+section.hero {
+    margin-bottom: 250px;
+}
+
+
+
+.section__title {   
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+.section-title_icon_fire:after {
+     content: "";
+     display: inline-block;
+    width: 25px;
+    height: 30px;
+    background: url(./air-asia/images/icons/flame.png) center center no-repeat;
+    }
+
+
+
+section.section{
+    margin-bottom: 159px;
+}

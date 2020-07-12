@@ -1,0 +1,29 @@
+.separator {
+    background: #f2cec2 url("./air-asia/images/bg/middleline.jpg") center no-repeat;
+    min-height: 360px;
+    display: flex;
+    color: #fff;
+    position: relative;
+    
+}
+
+.separator__container {
+    display: flex;
+}
+
+.separator__content {
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.separator__title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.1;
+    max-width: 50%;
+}
+
+.separator__img {
+    align-self: flex-end;
+}

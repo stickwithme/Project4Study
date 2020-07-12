@@ -1,0 +1,16 @@
+.review__title {
+    font-size: 30px;
+    color: #202123;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.review__content-text {
+    margin-bottom: 50px;
+}
+
+.review__date {
+    font-size: 14px;
+    color: #202123;
+    font-weight: bold;
+}

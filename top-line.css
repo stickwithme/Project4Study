@@ -1,0 +1,15 @@
+.top-line{
+    min-height: 415px;
+    display: flex;  
+    flex-direction: column;
+    padding-bottom: 25px;
+    background: #001821 url("./air-asia/images/bg/headline.jpg") right 28% top no-repeat;
+    background-size: cover;
+}
+
+.top-line__container {
+    display: flex;
+    flex: 1;    
+    flex-direction: column; 
+    justify-content: space-between;
+}

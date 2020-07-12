@@ -1,0 +1,14 @@
+.page-title {
+    font-size: 72px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+
+
+
+.page-content{
+    background: #fff;
+    color: #818181;
+    padding: 40px 0;
+}
