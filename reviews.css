@@ -48,7 +48,8 @@
     border-radius: 50%;
 }
 
-.review__tag {
-    display: flex;  
+
+.review__tags {
+    display: flex;
     align-items: flex-start;
 }
