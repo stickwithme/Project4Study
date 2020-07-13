@@ -1,10 +1,11 @@
 .partners {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .partners__item {
-    margin-left: 15px;
+    margin-left: 46px;
 }
 
 .partners__item:nth-child(4n + 1) {
