@@ -45,7 +45,7 @@
 }
 
 .hot-tour__features {
-    margin-right: 20px;
+   display: flex;
 }
 
 .hot-tour__features:last-child {
@@ -55,6 +55,7 @@
 .hot-tour__features-text {
     font-size: 14px;
     margin-right: 25px;
+    margin-left: 9px;
 }
 
 .hot-tour {
@@ -70,4 +71,15 @@ margin-bottom: 10px;
 
 .hot-tour-flame__img {
     max-width: 50% ;
+}
+
+.hot-tour__features-item {
+    display: flex;
+    align-items: center;    
+    margin-right: 30px;
+}
+
+
+.hot-tour__features-item:last-child {
+    margin-right: 0;
 }
